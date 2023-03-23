@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(to right, #f810da, #c95cfa, #927cff, #5691ff, #089fff);
+}
+
+* {
+    margin: 0;
+}
+
+.img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    color: #fff;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn {
+    width: 6em;
+  background-color: rgba(132, 50, 191, 0.9);
+  border-radius: 8px;
+  border-width: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+    background-color: rgba(132, 50, 191, 0.4);
+}
